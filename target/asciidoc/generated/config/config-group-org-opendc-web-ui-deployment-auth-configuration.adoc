@@ -1,0 +1,63 @@
+
+:summaryTableId: config-group-org-opendc-web-ui-deployment-auth-configuration
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[config-group-org-opendc-web-ui-deployment-auth-configuration_configuration]]link:#config-group-org-opendc-web-ui-deployment-auth-configuration_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[config-group-org-opendc-web-ui-deployment-auth-configuration_quarkus-open-dc-ui-auth-domain]]`link:#config-group-org-opendc-web-ui-deployment-auth-configuration_quarkus-open-dc-ui-auth-domain[quarkus.open-dc-ui.auth.domain]`
+
+
+[.description]
+--
+The authentication domain.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_UI_AUTH_DOMAIN+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_UI_AUTH_DOMAIN+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[config-group-org-opendc-web-ui-deployment-auth-configuration_quarkus-open-dc-ui-auth-client-id]]`link:#config-group-org-opendc-web-ui-deployment-auth-configuration_quarkus-open-dc-ui-auth-client-id[quarkus.open-dc-ui.auth.client-id]`
+
+
+[.description]
+--
+The client identifier used by the OpenDC web ui.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_UI_AUTH_CLIENT_ID+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_UI_AUTH_CLIENT_ID+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+
+a|icon:lock[title=Fixed at build time] [[config-group-org-opendc-web-ui-deployment-auth-configuration_quarkus-open-dc-ui-auth-audience]]`link:#config-group-org-opendc-web-ui-deployment-auth-configuration_quarkus-open-dc-ui-auth-audience[quarkus.open-dc-ui.auth.audience]`
+
+
+[.description]
+--
+The audience of the OpenDC API.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_UI_AUTH_AUDIENCE+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_UI_AUTH_AUDIENCE+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|
+
+|===

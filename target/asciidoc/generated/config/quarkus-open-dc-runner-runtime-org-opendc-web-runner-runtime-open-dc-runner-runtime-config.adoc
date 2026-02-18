@@ -1,0 +1,136 @@
+
+:summaryTableId: quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config
+[.configuration-legend]
+icon:lock[title=Fixed at build time] Configuration property fixed at build time - All other configuration properties are overridable at runtime
+[.configuration-reference, cols="80,.^10,.^10"]
+|===
+
+h|[[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_configuration]]link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_configuration[Configuration property]
+
+h|Type
+h|Default
+
+a|icon:lock[title=Fixed at build time] [[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-enable]]`link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-enable[quarkus.open-dc-runner-runtime.enable]`
+
+
+[.description]
+--
+Flag to indicate whether the runner should be enabled.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_ENABLE+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_ENABLE+++`
+endif::add-copy-button-to-env-var[]
+--|boolean 
+|`false`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-trace-path]]`link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-trace-path[quarkus.open-dc-runner-runtime.trace-path]`
+
+
+[.description]
+--
+The path where the workload traces are located.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_TRACE_PATH+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_TRACE_PATH+++`
+endif::add-copy-button-to-env-var[]
+--|string 
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-parallelism]]`link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-parallelism[quarkus.open-dc-runner-runtime.parallelism]`
+
+
+[.description]
+--
+The number of concurrent simulations
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_PARALLELISM+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_PARALLELISM+++`
+endif::add-copy-button-to-env-var[]
+--|int 
+|`0`
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-job-timeout]]`link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-job-timeout[quarkus.open-dc-runner-runtime.job-timeout]`
+
+
+[.description]
+--
+The maximum duration of a job.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_JOB_TIMEOUT+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_JOB_TIMEOUT+++`
+endif::add-copy-button-to-env-var[]
+--|link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]
+  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-poll-interval]]`link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-poll-interval[quarkus.open-dc-runner-runtime.poll-interval]`
+
+
+[.description]
+--
+The interval between successive polls to the API.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_POLL_INTERVAL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_POLL_INTERVAL+++`
+endif::add-copy-button-to-env-var[]
+--|link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]
+  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]
+|required icon:exclamation-circle[title=Configuration property is required]
+
+
+a|icon:lock[title=Fixed at build time] [[quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-heartbeat-interval]]`link:#quarkus-open-dc-runner-runtime-org-opendc-web-runner-runtime-open-dc-runner-runtime-config_quarkus-open-dc-runner-runtime-heartbeat-interval[quarkus.open-dc-runner-runtime.heartbeat-interval]`
+
+
+[.description]
+--
+The interval between successive heartbeats to the API.
+
+ifdef::add-copy-button-to-env-var[]
+Environment variable: env_var_with_copy_button:+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_HEARTBEAT_INTERVAL+++[]
+endif::add-copy-button-to-env-var[]
+ifndef::add-copy-button-to-env-var[]
+Environment variable: `+++QUARKUS_OPEN_DC_RUNNER_RUNTIME_HEARTBEAT_INTERVAL+++`
+endif::add-copy-button-to-env-var[]
+--|link:https://docs.oracle.com/javase/8/docs/api/java/time/Duration.html[Duration]
+  link:#duration-note-anchor-{summaryTableId}[icon:question-circle[title=More information about the Duration format]]
+|required icon:exclamation-circle[title=Configuration property is required]
+
+|===
+ifndef::no-duration-note[]
+[NOTE]
+[id='duration-note-anchor-{summaryTableId}']
+.About the Duration format
+====
+To write duration values, use the standard `java.time.Duration` format.
+See the link:https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/time/Duration.html#parse(java.lang.CharSequence)[Duration#parse() Java API documentation] for more information.
+
+You can also use a simplified format, starting with a number:
+
+* If the value is only a number, it represents time in seconds.
+* If the value is a number followed by `ms`, it represents time in milliseconds.
+
+In other cases, the simplified format is translated to the `java.time.Duration` format for parsing:
+
+* If the value is a number followed by `h`, `m`, or `s`, it is prefixed with `PT`.
+* If the value is a number followed by `d`, it is prefixed with `P`.
+====
+endif::no-duration-note[]

@@ -1,0 +1,22 @@
+{
+  "name": "data/outputs/",
+  "topologies": [
+    {
+      "pathToFile": "data/topologies/topology.json"
+    }
+  ],
+  "workloads": [
+    {
+      "pathToFile": "data/workload_traces/gwa_t_12_rnd",
+      "type": "ComputeWorkload"
+    }
+  ],
+  "exportModels": [
+    {
+      "exportInterval": 30000
+    }
+  ],
+  "outputFolder": "data/outputs",
+  "runs": 1
+}
+
