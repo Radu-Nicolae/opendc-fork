@@ -23,3 +23,33 @@
 1. Total operation time: 12.354 s
 
 ===================================================
+1. OpenDC time: 12.833 s
+1. M3SA time: 0.0 s
+1. Total operation time: 12.833 s
+
+===================================================
+1. OpenDC time: 12.233 s
+1. M3SA time: 0.0 s
+1. Total operation time: 12.233 s
+
+===================================================
+1. OpenDC time: 5.805 s
+1. M3SA time: 0.0 s
+1. Total operation time: 5.805 s
+
+===================================================
+1. OpenDC time: 5.817 s
+1. M3SA time: 0.0 s
+1. Total operation time: 5.817 s
+
+===================================================
+1. OpenDC time: 15.643 s
+1. M3SA time: 0.0 s
+1. Total operation time: 15.643 s
+
+===================================================
+1. OpenDC time: 4.912 s
+1. M3SA time: 0.0 s
+1. Total operation time: 4.912 s
+
+===================================================

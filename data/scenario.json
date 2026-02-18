@@ -1,5 +1,5 @@
 {
-  "name": "data/outputs/",
+  "name": "20260218_1906_fastStorage",
   "topologies": [
     {
       "pathToFile": "data/topologies/topology.json"
@@ -7,7 +7,7 @@
   ],
   "workloads": [
     {
-      "pathToFile": "data/workload_traces/gwa_t_12_rnd",
+      "pathToFile": "data/workload_traces/gwa_t_12_fastStorage",
       "type": "ComputeWorkload"
     }
   ],
