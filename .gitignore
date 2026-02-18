@@ -18,8 +18,12 @@ keys.json
 hs_err_pid*
 
 # data
+<<<<<<< HEAD
 
 
+=======
+/data/
+>>>>>>> c7b473279714cf83dd8a4bca0d3c9a08511d021a
 
 ### JetBrains
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
