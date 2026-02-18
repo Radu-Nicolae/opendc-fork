@@ -1,0 +1,21 @@
+[{
+    "name": "20260218_1906_fastStorage",
+    "outputFolder": "data/outputs",
+    "topology": {
+        "pathToFile": "data/topologies/topology.json"
+    },
+    "workload": {
+        "pathToFile": "data/workload_traces/gwa_t_12_fastStorage",
+        "type": "ComputeWorkload"
+    },
+    "exportModel": {
+        "exportInterval": 30000,
+        "filesToExportDict": {
+            "host": true,
+            "task": true,
+            "powerSource": true,
+            "battery": true,
+            "service": true
+        }
+    }
+}]
