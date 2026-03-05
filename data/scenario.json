@@ -1,5 +1,5 @@
 {
-  "name": "20260218_1906_fastStorage",
+  "name": "fastStorage_m3sa",
   "topologies": [
     {
       "pathToFile": "data/topologies/topology.json"
@@ -7,8 +7,14 @@
   ],
   "workloads": [
     {
-      "pathToFile": "data/workload_traces/gwa_t_12_fastStorage",
+      "pathToFile": "trace_processor/processed_traces/fastStorage",
       "type": "ComputeWorkload"
+    }
+  ],
+  "allocationPolicies": [
+    {
+      "policyName": "Mem",
+      "type": "prefab"
     }
   ],
   "exportModels": [
@@ -19,4 +25,3 @@
   "outputFolder": "data/outputs",
   "runs": 1
 }
-
