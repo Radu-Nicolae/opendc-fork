@@ -10,7 +10,7 @@
                         "coreSpeed": 2000
                     },
                     "memory": {
-                        "memorySize": "130 GiB"
+                        "memorySize": 140457600000
                     },
                     "cpuPowerModel": {
                         "modelType": "linear",

@@ -1,0 +1,21 @@
+[{
+    "name": "fastStorage_m3sa",
+    "outputFolder": "experiment-faststorage/outputs",
+    "topology": {
+        "pathToFile": "experiment-faststorage/topologies/topology.json"
+    },
+    "workload": {
+        "pathToFile": "experiment-faststorage/workload",
+        "type": "ComputeWorkload"
+    },
+    "exportModel": {
+        "exportInterval": 30000,
+        "filesToExportDict": {
+            "host": true,
+            "task": true,
+            "powerSource": true,
+            "battery": true,
+            "service": true
+        }
+    }
+}]
