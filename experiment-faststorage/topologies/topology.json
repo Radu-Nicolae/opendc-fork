@@ -1,24 +1,266 @@
 {
     "clusters": [
         {
-            "name": "C01",
+            "name": "A03",
             "hosts": [
                 {
-                    "name": "H01",
+                    "name": "TC3/A03",
+                    "count": 16,
                     "cpu": {
-                        "coreCount": 64,
-                        "coreSpeed": 2000
+                        "coreCount": 16,
+                        "coreSpeed": 3200
                     },
                     "memory": {
-                        "memorySize": 140457600000
+                        "memorySize": 134217728
                     },
                     "cpuPowerModel": {
                         "modelType": "linear",
                         "power": 400.0,
                         "idlePower": 100.0,
                         "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "A05",
+            "hosts": [
+                {
+                    "name": "TC3/A05",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 12,
+                        "coreSpeed": 2930
                     },
-                    "count": 50
+                    "memory": {
+                        "memorySize": 100663296
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "A07",
+            "hosts": [
+                {
+                    "name": "TC3/A07",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 2600
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "B04",
+            "hosts": [
+                {
+                    "name": "TC4/B04",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 3200
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "B06",
+            "hosts": [
+                {
+                    "name": "TC4/B06",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 2600
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "B08",
+            "hosts": [
+                {
+                    "name": "TC4/B08",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 2600
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C09",
+            "hosts": [
+                {
+                    "name": "TC5/C09",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 2600
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C10",
+            "hosts": [
+                {
+                    "name": "TC5/C10",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 2600
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C11",
+            "hosts": [
+                {
+                    "name": "TC5/C11",
+                    "count": 16,
+                    "cpu": {
+                        "coreCount": 16,
+                        "coreSpeed": 2600
+                    },
+                    "memory": {
+                        "memorySize": 134217728
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C12",
+            "hosts": [
+                {
+                    "name": "TC5/C12",
+                    "count": 6,
+                    "cpu": {
+                        "coreCount": 32,
+                        "coreSpeed": 2700
+                    },
+                    "memory": {
+                        "memorySize": 792723456
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C13",
+            "hosts": [
+                {
+                    "name": "TC5/C13",
+                    "count": 6,
+                    "cpu": {
+                        "coreCount": 32,
+                        "coreSpeed": 2700
+                    },
+                    "memory": {
+                        "memorySize": 792723456
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
+                }
+            ]
+        },
+        {
+            "name": "C14",
+            "hosts": [
+                {
+                    "name": "TC5/C14",
+                    "count": 6,
+                    "cpu": {
+                        "coreCount": 32,
+                        "coreSpeed": 2700
+                    },
+                    "memory": {
+                        "memorySize": 792723456
+                    },
+                    "cpuPowerModel": {
+                        "modelType": "linear",
+                        "power": 400.0,
+                        "idlePower": 100.0,
+                        "maxPower": 200.0
+                    }
                 }
             ]
         }
