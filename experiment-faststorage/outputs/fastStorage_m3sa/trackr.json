@@ -1,0 +1,21 @@
+[{
+    "name": "fastStorage_m3sa",
+    "outputFolder": "data/outputs",
+    "topology": {
+        "pathToFile": "data/topologies/topology.json"
+    },
+    "workload": {
+        "pathToFile": "data/workload_traces/surf-22",
+        "type": "ComputeWorkload"
+    },
+    "exportModel": {
+        "exportInterval": 30000,
+        "filesToExportDict": {
+            "host": true,
+            "task": true,
+            "powerSource": true,
+            "battery": true,
+            "service": true
+        }
+    }
+}]
