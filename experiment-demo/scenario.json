@@ -1,0 +1,27 @@
+{
+  "name": "fastStorage_m3sa",
+  "topologies": [
+    {
+      "pathToFile": "experiment-demo/topologies/topology.json"
+    }
+  ],
+  "workloads": [
+    {
+      "pathToFile": "experiment-demo/workload_traces/surf-22",
+      "type": "ComputeWorkload"
+    }
+  ],
+  "allocationPolicies": [
+    {
+      "policyName": "Mem",
+      "type": "prefab"
+    }
+  ],
+  "exportModels": [
+    {
+      "exportInterval": 30000
+    }
+  ],
+  "outputFolder": "experiment-demo/outputs",
+  "runs": 1
+}

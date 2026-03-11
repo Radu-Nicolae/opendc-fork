@@ -1,0 +1,11 @@
+Analysis file create
+
+=========================================================
+Simulation made at 2026-03-05 16:24:04
+Metric: power_draw
+Unit: k
+Window size: 1
+Sample count in raw sim data: 357
+Computing time 0.2s
+Plot path: /opt/opendc/output/simulation-analysis/power_draw/time_series_plot_multimodel_metric=power_draw_window=1.pdf
+=========================================================
