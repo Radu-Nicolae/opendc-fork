@@ -1,0 +1,639 @@
+{
+  "1": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "1",
+    "datacenter": "1"
+  },
+  "2": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "3": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "3",
+    "datacenter": "2"
+  },
+  "4": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "3",
+    "datacenter": "2"
+  },
+  "5": {
+    "cores": "16",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "4",
+    "datacenter": "2"
+  },
+  "6": {
+    "cores": "16",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "4",
+    "datacenter": "2"
+  },
+  "7": {
+    "cores": "16",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "4",
+    "datacenter": "2"
+  },
+  "8": {
+    "cores": "16",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "4",
+    "datacenter": "2"
+  },
+  "9": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "5",
+    "datacenter": "3"
+  },
+  "10": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "11": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "12": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "13": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "14": {
+    "cores": "48",
+    "memory": "64",
+    "speed": 3,
+    "cluster": "8",
+    "datacenter": "5"
+  },
+  "15": {
+    "cores": "16",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "4",
+    "datacenter": "2"
+  },
+  "16": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "9",
+    "datacenter": "2"
+  },
+  "17": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "18": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "19": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "20": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "11",
+    "datacenter": "4"
+  },
+  "21": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "11",
+    "datacenter": "4"
+  },
+  "22": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "23": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "24": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "25": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "26": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 3.2,
+    "cluster": "12",
+    "datacenter": "4"
+  },
+  "27": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "9",
+    "datacenter": "2"
+  },
+  "28": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "29": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "30": {
+    "cores": "32",
+    "memory": "384",
+    "speed": 3.3,
+    "cluster": "13",
+    "datacenter": "1"
+  },
+  "31": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "32": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "33": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "34": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "35": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "36": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "37": {
+    "cores": "32",
+    "memory": "384",
+    "speed": 3.3,
+    "cluster": "13",
+    "datacenter": "1"
+  },
+  "38": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "9",
+    "datacenter": "2"
+  },
+  "39": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "12",
+    "datacenter": "4"
+  },
+  "40": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "14",
+    "datacenter": "2"
+  },
+  "41": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "15",
+    "datacenter": "4"
+  },
+  "42": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "9",
+    "datacenter": "2"
+  },
+  "43": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "12",
+    "datacenter": "4"
+  },
+  "44": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "14",
+    "datacenter": "2"
+  },
+  "45": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "12",
+    "datacenter": "4"
+  },
+  "46": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "12",
+    "datacenter": "4"
+  },
+  "47": {
+    "cores": "48",
+    "memory": "64",
+    "speed": 3,
+    "cluster": "16",
+    "datacenter": "4"
+  },
+  "48": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "49": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "50": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "51": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "7",
+    "datacenter": "2"
+  },
+  "52": {
+    "cores": "14",
+    "memory": "384",
+    "speed": 3.2,
+    "cluster": "15",
+    "datacenter": "4"
+  },
+  "53": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "54": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "55": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "56": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "57": {
+    "cores": "32",
+    "memory": "384",
+    "speed": 3.3,
+    "cluster": "13",
+    "datacenter": "1"
+  },
+  "58": {
+    "cores": "32",
+    "memory": "384",
+    "speed": 3.3,
+    "cluster": "13",
+    "datacenter": "1"
+  },
+  "59": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "17",
+    "datacenter": "2"
+  },
+  "60": {
+    "cores": "8",
+    "memory": "512",
+    "speed": 3.8,
+    "cluster": "18",
+    "datacenter": "1"
+  },
+  "61": {
+    "cores": "8",
+    "memory": "512",
+    "speed": 3.8,
+    "cluster": "19",
+    "datacenter": "6"
+  },
+  "62": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "63": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "64": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "2",
+    "datacenter": "1"
+  },
+  "65": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "20",
+    "datacenter": "2"
+  },
+  "66": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "20",
+    "datacenter": "2"
+  },
+  "67": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "21",
+    "datacenter": "4"
+  },
+  "68": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "11",
+    "datacenter": "4"
+  },
+  "69": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "20",
+    "datacenter": "2"
+  },
+  "70": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "22",
+    "datacenter": "2"
+  },
+  "71": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "20",
+    "datacenter": "2"
+  },
+  "72": {
+    "cores": "64",
+    "memory": "2048",
+    "speed": 3.6,
+    "cluster": "11",
+    "datacenter": "4"
+  },
+  "73": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "22",
+    "datacenter": "2"
+  },
+  "74": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "22",
+    "datacenter": "2"
+  },
+  "75": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "21",
+    "datacenter": "4"
+  },
+  "76": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "22",
+    "datacenter": "2"
+  },
+  "77": {
+    "cores": "32",
+    "memory": "128",
+    "speed": 3.6,
+    "cluster": "23",
+    "datacenter": "4"
+  },
+  "78": {
+    "cores": "32",
+    "memory": "128",
+    "speed": 3.6,
+    "cluster": "24",
+    "datacenter": "2"
+  },
+  "79": {
+    "cores": "24",
+    "memory": "768",
+    "speed": 3.2,
+    "cluster": "25",
+    "datacenter": "2"
+  },
+  "80": {
+    "cores": "32",
+    "memory": "384",
+    "speed": 3.3,
+    "cluster": "13",
+    "datacenter": "1"
+  },
+  "81": {
+    "cores": "24",
+    "memory": "768",
+    "speed": 3.2,
+    "cluster": "26",
+    "datacenter": "4"
+  },
+  "82": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "10",
+    "datacenter": "4"
+  },
+  "83": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "21",
+    "datacenter": "4"
+  },
+  "84": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "27",
+    "datacenter": "2"
+  },
+  "85": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "27",
+    "datacenter": "2"
+  },
+  "86": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "27",
+    "datacenter": "2"
+  },
+  "87": {
+    "cores": "64",
+    "memory": "1024",
+    "speed": 2.9,
+    "cluster": "27",
+    "datacenter": "2"
+  },
+  "88": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "89": {
+    "cores": "64",
+    "memory": "768",
+    "speed": 2.9,
+    "cluster": "6",
+    "datacenter": "4"
+  },
+  "90": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "3",
+    "datacenter": "2"
+  },
+  "91": {
+    "cores": "64",
+    "memory": "512",
+    "speed": 2.9,
+    "cluster": "1",
+    "datacenter": "1"
+  }
+}

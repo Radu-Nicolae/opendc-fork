@@ -1,14 +1,11 @@
 {
-    "clusters":
-    [
+    "clusters": [
         {
             "name": "C01",
-            "hosts" :
-            [
+            "hosts": [
                 {
                     "name": "H01",
-                    "cpu":
-                    {
+                    "cpu": {
                         "coreCount": 64,
                         "coreSpeed": 2000
                     },
@@ -21,7 +18,7 @@
                         "idlePower": 100.0,
                         "maxPower": 200.0
                     },
-                    "count": 300
+                    "count": 50
                 }
             ]
         }
